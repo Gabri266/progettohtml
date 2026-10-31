@@ -19,7 +19,6 @@ body {
 
 header {
     background-color: #1e293b;
-    padding: 20px;
 }
 
 nav {
@@ -29,7 +28,7 @@ nav {
 .logo {
     color: #60a5fa;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bold; /* grassetto */
 }
 
 .menu {
@@ -38,13 +37,10 @@ nav {
 
 .menu a {
     color: white;
-    text-decoration: none;
     margin: 12px;
 }
 
-.menu a:hover {
-    color: #60a5fa;
-}
+
 
 /* TITOLI E TESTI */
 
@@ -65,14 +61,14 @@ h3 {
 
 p {
     color: #cbd5e1;
-    line-height: 1.7;
+
 }
 
 /* INTRODUZIONE */
 
 .hero {
     text-align: center;
-    padding: 40px;
+
 }
 
 .hero img {
@@ -103,8 +99,7 @@ img {
 
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+
     background-color: #1e293b;
 }
 
