@@ -78,6 +78,11 @@ p {
 
 /* RIQUADRI */
 
+riquadri {
+    display: flex;
+    gap: 15px;
+}
+
 .riquadro {
     background-color: #1e293b;
     padding: 20px;
@@ -133,7 +138,7 @@ li {
 
 .pulsante {
     display: inline-block;
-    background-color: #166534;
+    background-color: #2563eb;
     color: white;
     padding: 10px 18px;
     text-decoration: none;
