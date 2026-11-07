@@ -1,4 +1,4 @@
-
+```css
 /* IMPOSTAZIONI GENERALI */
 
 body {
@@ -10,7 +10,7 @@ body {
 
 /* CONTENITORE */
 
-.container {
+.contenitore {
     width: 85%;
     margin: auto;
 }
@@ -26,9 +26,9 @@ nav {
 }
 
 .logo {
-    color: #60a5fa;
+    color: #22c55e;
     font-size: 28px;
-    font-weight: bold; /* grassetto */
+    font-weight: bold;
 }
 
 .menu {
@@ -40,53 +40,53 @@ nav {
     margin: 12px;
 }
 
-
-
 /* TITOLI E TESTI */
 
 h1 {
-    color: #60a5fa;
+    color: #22c55e;
     text-align: center;
     font-size: 38px;
 }
 
 h2 {
-    color: #60a5fa;
+    color: #22c55e;
     margin-top: 35px;
 }
 
 h3 {
-    color: #93c5fd;
+    color: #86efac;
 }
 
 p {
     color: #cbd5e1;
-
 }
 
 /* INTRODUZIONE */
 
-.hero {
+.introduzione {
     text-align: center;
-
 }
 
-.hero img {
+.introduzione img {
     width: 80%;
     border-radius: 12px;
 }
 
+.parola_verde {
+    color: #22c55e;
+}
+
 /* RIQUADRI */
 
-.card {
+.riquadro {
     background-color: #1e293b;
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
 }
 
-.card h3 {
-    color: #60a5fa;
+.riquadro h3 {
+    color: #22c55e;
 }
 
 /* IMMAGINI */
@@ -99,12 +99,11 @@ img {
 
 table {
     width: 100%;
-
     background-color: #1e293b;
 }
 
 th {
-    background-color: #2563eb;
+    background-color: #166534;
     color: white;
 }
 
@@ -123,18 +122,18 @@ li {
 
 /* PARTE PERSONALE */
 
-.personal {
+.personale {
     background-color: #1e293b;
     padding: 20px;
-    border-left: 4px solid #60a5fa;
+    border-left: 4px solid #22c55e;
     margin-top: 25px;
 }
 
 /* PULSANTI */
 
-.button {
+.pulsante {
     display: inline-block;
-    background-color: #2563eb;
+    background-color: #166534;
     color: white;
     padding: 10px 18px;
     text-decoration: none;
@@ -142,8 +141,8 @@ li {
     margin: 5px;
 }
 
-.button:hover {
-    background-color: #60a5fa;
+.pulsante:hover {
+    background-color: #22c55e;
 }
 
 /* PIEDE DELLA PAGINA */
@@ -154,3 +153,4 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+```
