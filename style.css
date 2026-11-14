@@ -1,3 +1,4 @@
+
 /* IMPOSTAZIONI GENERALI */
 
 body {
@@ -9,7 +10,7 @@ body {
 
 /* CONTENITORE */
 
-.container {
+.scatola {
     width: 85%;
     margin: auto;
 }
@@ -25,27 +26,23 @@ nav {
 }
 
 a.porco {
-  color: Green;  
-  
+    color: Green;
 }
 
-
-.logo {
+.marchio {
     color: #60a5fa;
     font-size: 28px;
-    font-weight: bold; /* grassetto */
+    font-weight: bold;
 }
 
-.menu {
+.navigazione {
     margin-top: 15px;
 }
 
-.menu a {
+.navigazione a {
     color: white;
     margin: 12px;
 }
-
-
 
 /* TITOLI E TESTI */
 
@@ -66,31 +63,29 @@ h3 {
 
 p {
     color: #cbd5e1;
-
 }
 
 /* INTRODUZIONE */
 
-.hero {
+.vetrina {
     text-align: center;
-
 }
 
-.hero img {
+.vetrina img {
     width: 80%;
     border-radius: 12px;
 }
 
 /* RIQUADRI */
 
-.card {
+.scheda {
     background-color: #1e293b;
     padding: 20px;
     margin: 15px 0;
     border-radius: 10px;
 }
 
-.card h3 {
+.scheda h3 {
     color: #60a5fa;
 }
 
@@ -104,7 +99,6 @@ img {
 
 table {
     width: 100%;
-
     background-color: #1e293b;
 }
 
@@ -128,7 +122,7 @@ li {
 
 /* PARTE PERSONALE */
 
-.personal {
+.retroscena {
     background-color: #1e293b;
     padding: 20px;
     border-left: 4px solid #60a5fa;
@@ -137,7 +131,7 @@ li {
 
 /* PULSANTI */
 
-.button {
+.bottone {
     display: inline-block;
     background-color: #2563eb;
     color: white;
@@ -147,7 +141,7 @@ li {
     margin: 5px;
 }
 
-.button:hover {
+.bottone:hover {
     background-color: #60a5fa;
 }
 
