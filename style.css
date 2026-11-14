@@ -102,18 +102,6 @@ table {
     background-color: #1e293b;
 }
 
-th {
-    background-color: #2563eb;
-    color: white;
-}
-
-td, th {
-    border: 1px solid #475569;
-    padding: 12px;
-    text-align: left;
-}
-
-/* ELENCHI */
 
 li {
     margin-bottom: 10px;
